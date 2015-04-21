@@ -3,7 +3,7 @@ namespace Aws\Test;
 
 use Aws\Exception\AwsException;
 use Aws\Result;
-use GuzzleHttp\Promise\Promise;
+use GuzzleHttp\Promise;
 use GuzzleHttp\Psr7\Request;
 use GuzzleHttp\Psr7\Response;
 use GuzzleHttp\Psr7;
