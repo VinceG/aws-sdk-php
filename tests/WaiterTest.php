@@ -61,7 +61,7 @@ class WaiterTest extends \PHPUnit_Framework_TestCase
         ) {
             $waitTime += $options['delay'];
 
-            $promise = new Promise();
+            $promise = new Promise\Promise();
             $promise->resolve(new Response(200, [],
                 Psr7\stream_for(sprintf(
                     '{"Table":{"TableStatus":"%s"}}',
